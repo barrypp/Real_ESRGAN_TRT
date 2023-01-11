@@ -4,7 +4,7 @@
 #include "postprocess.hpp"	// postprocess plugin 
 #include "logging.h"
 #include "utils.h"
-#include <unistd.h>	//access()
+//#include <unistd.h>	//access()
 
 #define DEVICE 0  // GPU id
 #define BATCH_SIZE 1

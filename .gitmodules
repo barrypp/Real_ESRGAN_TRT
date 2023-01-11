@@ -1,0 +1,4 @@
+[submodule "dirent"]
+	path = dirent
+	url = https://github.com/tronkko/dirent.git
+

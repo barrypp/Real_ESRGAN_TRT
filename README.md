@@ -8,7 +8,18 @@ The Pytorch implementation is [real-esrgan](https://github.com/xinntao/Real-ESRG
 - FP16/FP32 can be selected by **PRECISION_MODE** in real-esrgan.cpp
 - The example result can be visualized by **VISUALIZATION**. 
 
-## How to Run, real-esrgan as example
+## Windows
+
+1. prepare
+ - install cuda, https://developer.nvidia.com/cuda-downloads
+ - install opencv, install path C:\ProgramFiles, may need to change opencv.props, https://sourceforge.net/projects/opencvlibrary/files/
+ - install TensorRT, may not compatible with latest cuda version, may need to change TensorRT.props, https://developer.nvidia.com/tensorrt
+ - copy nvinfer.dll, opencv_world460.dll, opencv_world460d.dll to Real_ESRGAN_TRT.exe path or add them to system path
+
+   thanks https://github.com/yester31/Real_ESRGAN_TRT/issues/8#issuecomment-1340507366
+
+
+## How to Run, real-esrgan as example (original)
 
 1. generate .wts from pytorch with .pt, or download .wts from model zoo
 
